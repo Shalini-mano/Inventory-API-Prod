@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.inventory.service.AuthService;
 
 @RestController
-@RequestMapping("api/auth")
+@RequestMapping("/api/auth")
 public class AuthController {
     private final AuthService authService;
 
